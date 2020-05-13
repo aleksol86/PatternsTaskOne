@@ -17,7 +17,7 @@ public class AppCardDeliveryTest {
     }
 
     @Test
-    void shouldTest() {
+    void shouldSuccessPlanAndReplan() {
         open("http://localhost:9999");
         $("input[placeholder=\"Город\"").setValue(registrationInfo.getCity());
         $("input[placeholder=\"Дата встречи\"]").doubleClick().sendKeys(Keys.BACK_SPACE);
