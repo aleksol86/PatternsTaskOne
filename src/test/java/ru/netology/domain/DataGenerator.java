@@ -19,7 +19,7 @@ public class DataGenerator {
             return new RegistrationByCardInfo(
                     faker.address().city(),
                     faker.name().lastName() + " " + faker.name().firstName(),
-                    faker.phoneNumber()
+                    faker.phoneNumber().cellPhone()
             );
         }
 

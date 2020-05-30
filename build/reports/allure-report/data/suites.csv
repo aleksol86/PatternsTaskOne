@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun May 24 15:07:27 GMT+03:00 2020","Sun May 24 15:07:34 GMT+03:00 2020","7310","","ru.netology.domain.AppCardDeliveryTest","","ru.netology.domain.AppCardDeliveryTest","shouldSuccessPlanAndReplan","shouldSuccessPlanAndReplan()",""
